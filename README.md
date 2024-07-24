@@ -1,4 +1,4 @@
-# **Auto Analytics**
+# **Auto_Analytics**
 
 
 ## **Introduction**
@@ -76,74 +76,4 @@ Visit [AUTO API](https://github.com/aj-2000/autoapi) Repository for Installation
 * **[NumPy](https://numpy.org/)**: NumPy is a library for the Python programming language, adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
 * **[Stats Model](https://www.statsmodels.org/stable/index.html)**: statsmodels is a Python module that provides classes and functions for the estimation of many different statistical models, as well as for conducting statistical tests, and statistical data exploration. An extensive list of result statistics are available for each estimator.
 
-
-
-## Application Architecture
-
-![](https://raw.githubusercontent.com/aj-2000/auto-analytics/master/ApplicationStructure.png)
-
-# **How to Set up *`Auto Analytics`* for Development ?**
-
-## **FRONTEND CLIENT**
-
-### 1. **Clone / Download**
-
-```bash
-https://github.com/yashgaur512/auto-analytics.git
-```
-
-Please change the directory after cloning the repository using the `cd <folder-name>` command.
-
-### 2. **Install Dependencies**
-Next, install the dependencies by running the following command in the `react-play` repo:
-
-```bash
-npm install
-```
-or
-  
-```bash
-yarn install
-```
-
-### 3. **Start the Development Mode**
-Use the following command to start the app in the development mode:
-
-```bash
-npm start
-```
-or
-  
-```bash
-yarn start
-```
-
-It runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes. You may also see any lint errors in the console.
-
-### 4. **Build the App for Production**
-Use the following command to build the app for production:
-
-```bash
-npm run build
-```
-or
-  
-```bash
-yarn build
-```
-
-It builds the app for production to the `build` folder. It correctly bundles React in production mode and optimizes the build for the best performance. The build is minified and the filenames include the hashes.
-
-## **BACKEND API SERVER**
-> [AUTOAPI Service](https://engage-autoapi.herokuapp.com)
-
-Visit [AUTO API](https://github.com/aj-2000/autoapi) Repository for Installation Process and API Docs.
-
-## **Configure BACKEND API URL to Frontend**
-
-###  in auto-analytics/src/consts/urls.js
-```bash
-export const BASE_URL = "BACKEND_SERVER_URL" // https://localhost:8000 or https://engage-autoapi.herokuapp.com
 ```
